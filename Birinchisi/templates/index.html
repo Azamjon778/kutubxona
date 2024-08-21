@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Mustaqil Ro'yxat</h1>
+    {% for i in kitob %}
+        <h2><a href="/bitta_muallif/{{i.id}}">{{i.id}}</a>. {{i.ism }} </h2>
+    {% endfor %}
+</body>
+</html>

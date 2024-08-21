@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>hamma kitob</h1>
+    <form method="get">
+        <input type="text" name="qidir">
+        <button type="submit">Qidirish</button>
+    </form>
+    {% for i in kitob %}
+        <h2>{{i.id}}. {{i.ism }} {{i.yoshi}} {{i.trik}} </h2>
+    {% endfor %}
+</body>
+</html>
